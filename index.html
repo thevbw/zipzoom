@@ -1,0 +1,26 @@
+<head>
+<title>Zoom Web Portal</title>
+<script>
+    // soup time
+    // old fossil code here
+    //var idbox=document.getElementById("numbox");
+    
+    function go() {
+        //document.getElementById("numbox")
+        window.open("https://zoom.us/wc/join/"+document.getElementById("numbox").value);
+    }
+</script>
+</head>
+
+<body style="text-align:center; color:#555555; font-family:'Segoe UI',sans-serif;">
+
+<br><br><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Zoom_Communications_Logo.svg/800px-Zoom_Communications_Logo.svg.png" width="30%" /><br><br>
+Web-Only Portal<br>
+<small>by Victor B.W.</small><br><br>
+Please enter your meeting ID code below, and press the button!<br><br><br>
+
+<input style="text-align: center;" id="numbox" /><br><br>
+
+<button onclick="go();">Launch Online</button>
+
+</body>
